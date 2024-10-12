@@ -1,0 +1,150 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./styles/styles.scss")
+        title Document
+        script(src='app.js' type='module')
+    body
+        header(class='section' class='header')
+            nav(class='container' class='navigation')
+                div(class='logo__header-wrapper')
+                    a(href="#home" class='logo-link')
+                        img(src='./assets/svg/logo.svg')
+                div(class='menu_wrapper')
+                    button(class='menu-toggle' aria-label='open menu' onClick="openMobileMenu()") &#9776;
+                    ul(class='menu')
+                        li
+                            a(href='#reproductions' class='menu-item') Репродукции
+                        li
+                            a(href='#news' class='menu-item') Новинки
+                        li 
+                            a(href='#about' class='menu-item') О нас
+                    div(class='cart') 
+                        a(href='#cart' class='menu-item') 
+                            svg(class='social-icon')
+                                use(xlink:href="./assets/svg/sprite.svg#cart")
+                div(class='menu-mobile')
+                    button(class='menu-mobile__btn' onClick="onCloseMobileMenu()")
+                        svg
+                            use(xlink:href="./assets/svg/sprite.svg#close") 
+                    ul(class='menu-mobile__list')
+                        
+                        li
+                            a(href='#reproductions' class='menu-item') Репродукции
+                        li
+                            a(href='#news' class='menu-item') Новинки
+                        li 
+                            a(href='#about' class='menu-item') О нас
+        - var classesSection = ['section', 'hero-section']
+        section(class=classesSection id='home')
+            - var classesHero = ['container', 'hero-container']
+            div(class=classesHero)
+                div(class='hero-image__wrapper')
+                    //- img(src='./assets/image/hero.png' alt='hero')
+                div(class='hero-info__wrapper')
+                    - var greenText = "<span>Ink. House</span>"            
+                        h1(class='hero-title') Реплики картин от !{greenText}
+                        p(class='hero-info_text') Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие произведения, доступные цены.
+                        a(href='#' class='btn' class='btn-green' class='btn-hero') Продукция
+        section(class='section' class='section-padding' id='reproductions')
+            div(class='container')
+                div(class='card-list__menu')
+                    h2(class='card-list__title') Репродукции
+                    div(class='card-list__btn-wrapper')
+                        button(class='round-btn' class='active') Франция
+                        button(class='round-btn') Германия
+                        button(class='round-btn') Англия
+                ul(class='card-list')
+                   each val in dataVariable.france
+                    li(class='card')
+                        div(class='card__img-wrapper')
+                            img(src=`${val.img}` alt='card')
+                        p(class='card__author') #{val.cardAuthor}
+                        h3(class='card__picture-name') #{val.cardPictureName}
+                        p(class='card__description') Холст, масло (50х80)
+                        p(class='card__price') #{val.price}
+                        button(class='btn' class='btn-green') В корзину
+        section(class='section' class='promo-section'  id='news')
+            div(class='container')
+                div(class='promo__wrapper')
+                    div(class='promo__title-wrapper')
+                        img(src='./assets/image/promo_star.png' alt="promo")
+                        h2(class='promo__title') Новая коллекция французских авторов
+                    p(class="promo__text mb24") Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений.
+                    p(class="promo__text") Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.
+                    button(class='btn' class='btn-yellow') Ознакомиться
+        section(class='section' class='section-padding' id='about')
+            div(class='container' class='team-container')
+                img(src='./assets/image/teamImg.png' class='main-img')
+                div(class='team__wrapper')
+                    h2(class='team__title') Наша команда
+                    p(class='team__text') Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.
+                    div(class='team__avatar-wrapper')
+                        img(src='./assets/image/team1.png' alt='team1')
+                        img(src='./assets/image/team2.png' alt='team2')
+                        img(src='./assets/image/team3.png' alt='team3')
+        footer(class='section' class='footer')
+            div(class='container' class='footer-container')
+                ul(class='footer-menu__list')
+                    li
+                        div(class='logo__wrapper')
+                            a(href='home' class='logo-link')
+                                img(src='./assets/svg/logo.svg' alt='logo' class='logo-footer')
+                    li
+                        div(class='footer__address')
+                            a(class='footer-info__phone' href='tel:+79995435454') +7 (999) 543-54-54
+                            p Мастерская
+                    
+                        
+                    li
+
+                        div
+                            ul(class='footer-menu')
+                                li
+                                    a(href='#reproductions' class='footer-menu__title' class='footer__reproduction') Репродукции
+                                li 
+                                            a(href='#') Франция
+                                li 
+                                            a(href='#') Германия
+                                li 
+                                            a(href='#') Англия
+                    li
+                        div
+                            
+                            ul(class='footer-menu')
+                                li
+                                    a(href='#news' class='footer-menu__title') Новинки
+                                        
+                                li 
+                                    a(href='#') 2021
+                                li 
+                                    a(href='#') 2020
+                                li
+                    li
+                        div
+                            
+                            ul(class='footer-menu')
+                                li
+                                    a(href="#about" class='footer-menu__title') О нас
+                                
+                                li
+                                    a(href='#') Художники
+                                li
+                                    a(href='#') Менеджеры
+                    li 
+                        div(class='footer__socials-wrapper') 
+                            div(class='socials__wrapper')
+                       
+                                svg(class='social-icon')
+                                    use(xlink:href="./assets/svg/sprite.svg#facebook")
+                                svg(class='social-icon')
+                                    use(xlink:href="./assets/svg/sprite.svg#instargam")  
+                                svg(class='social-icon')
+                                    use(xlink:href="./assets/svg/sprite.svg#youtube")
+                            div(class='footer__convention-wrapper')
+                                p(class='footer__convention' class='mb6') Ink. House ®
+                                p(class='footer__convention') All rights reserved
+
+                

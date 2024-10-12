@@ -1,0 +1,291 @@
+@import "./node_modules/sass-extras/index";
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  Typographic tweaks!
+  3. Add accessible line-height
+  4. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  5. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+/*
+  6. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  7. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  font: inherit;
+}
+/*
+  8. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #2c2d35;
+  font-weight: 500;
+  font-style: normal;
+  font-optical-sizing: auto;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.section {
+  margin: 0 auto;
+  width: 320px;
+  @media screen and (min-width: 576px) {
+    width: 576px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+  }
+}
+.section-padding {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 576px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 70;
+    padding-bottom: 70px;
+  }
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 576px) {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-left: 39px;
+    padding-right: 39px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+}
+
+//---------------------  Buttons --------------------------------------------------//
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  padding-top: 14.5px;
+  padding-bottom: 14.5px;
+  font-size: 18px;
+  line-height: 21px;
+  @media screen and (min-width: 768px) {
+    padding-top: 18.5px;
+    padding-bottom: 18.5px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  @media screen and (min-width: 1440px) {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
+.btn-green {
+  color: #598d66;
+  border: 1px solid #598d66;
+  &:hover {
+    background-color: #598d66;
+    color: white;
+  }
+  &:active {
+    background-color: #376b44;
+    &:hover {
+      background-color: #598d66;
+    }
+  }
+  &:focus {
+    border: 1px solid #598d66;
+    background-color: #d4e8d9;
+    &:hover {
+      background-color: #598d66;
+    }
+  }
+}
+.btn-yellow {
+  color: #2c2d35;
+  width: 257px;
+  background-color: #eedb6d;
+  border: 1px solid transparent;
+  &:hover {
+    background-color: #faeb97;
+  }
+  &:active {
+    background-color: #d9b949;
+  }
+  &:focus {
+    background-color: #faeb97;
+    border: 2px solid #a38314;
+  }
+}
+//------------------------------Menu--------------------------------------- //
+.menu {
+  display: none;
+  flex-direction: row;
+  gap: 60px;
+  @media screen and (min-width: 576px) {
+    display: flex;
+  }
+}
+.menu_wrapper {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+    padding-top: 0;
+    gap: 60px;
+  }
+  @media screen and (min-width: 1440px) {
+    justify-content: flex-end;
+    gap: 60px;
+  }
+}
+.menu-item {
+  font-size: 18px;
+  line-height: 21px;
+  &:hover,
+  &:focus,
+  &:active {
+    color: #376b44;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+// .menu-toggle.rotate {
+//   transform: rotate(90deg);
+// }
+.menu-toggle {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+  padding: 10px;
+  transition: transform 0.3s ease;
+
+  @media screen and (min-width: 567px) {
+    display: none;
+  }
+}
+
+.menu-mobile.show {
+  display: block;
+}
+.menu-mobile {
+  background-color: #e1ede6;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  padding: 16px;
+  font-size: 18px;
+  line-height: 21px;
+  display: none;
+}
+.menu-mobile__list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.menu-mobile__btn {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border: none;
+  fill: #2c2d35;
+  & svg {
+    width: 24px;
+    height: 24px;
+    &:hover,
+    &:focus,
+    &:active {
+      fill: #376b44;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "france": [
+    {
+      "cardAuthor": "Марсель Руссо",
+      "img": "./assets/image/france/1.jpg",
+      "cardPictureName": "Охота Амура",
+      "cardDescription": "Холст, масло (50х80)",
+      "price": "14 500 руб"
+    },
+    {
+      "cardAuthor": "Анри Селин",
+      "img": "./assets/image/france/2.jpg",
+      "cardPictureName": " Дама с собачкой",
+      "cardDescription": "Акрил, бумага (50х80)",
+      "price": "16 500 руб"
+    },
+    {
+      "cardAuthor": "Франсуа Дюпон",
+      "img": "./assets/image/france/3.jpg",
+      "cardPictureName": "Процедура",
+      "cardDescription": "Цветная литография (40х60)",
+      "price": "20 000 руб"
+    },
+    {
+      "cardAuthor": "Луи Детуш",
+      "img": "./assets/image/france/4.jpg",
+      "cardPictureName": "Роза",
+      "cardDescription": "Бумага, акрил (50х80)",
+      "price": "12 000 руб"
+    },
+    {
+      "cardAuthor": "Франсуа Дюпон",
+      "img": "./assets/image/france/5.jpg",
+      "cardPictureName": "Птичья трапеза",
+      "cardDescription": "Цветная литография (40х60)",
+      "price": "22 500 руб"
+    },
+    {
+      "cardAuthor": "Пьер Моранж",
+      "img": "./assets/image/france/6.jpg",
+      "cardPictureName": "Пейзаж с рыбой",
+      "cardDescription": "Цветная литография (40х60)",
+      "price": "20 000 руб"
+    }
+  ]
+}

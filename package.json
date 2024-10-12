@@ -1,0 +1,27 @@
+{
+  "name": "house_redrover_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "author": "",
+  "license": "ISC",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.pug -d docs --public-url ./",
+    "start": "parcel src/index.pug --open"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "latest",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "typed-scss-modules": "^8.0.1"
+  },
+  "dependencies": {
+    "@parcel/bundler-default": "^2.12.0",
+    "@parcel/transformer-pug": "^2.12.0",
+    "modern-normalize": "^3.0.1",
+    "sass-extras": "^1.0.0"
+  }
+}
