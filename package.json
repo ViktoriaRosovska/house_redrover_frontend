@@ -1,5 +1,6 @@
 {
   "name": "house_redrover_frontend",
+  "homepage": "https://viktoriarosovska.github.io/house_redrover_frontend",
   "version": "1.0.0",
   "description": "",
   "source": "src/index.html",
@@ -8,8 +9,10 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.pug -d docs --public-url ./",
-    "start": "parcel src/index.pug --open"
+    "build": "parcel build src/index.pug -d docs --public-url ./ gh-pages -d dist",
+    "start": "parcel src/index.pug --open",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
