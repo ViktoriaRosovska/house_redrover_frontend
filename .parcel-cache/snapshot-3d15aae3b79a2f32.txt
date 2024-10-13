@@ -46,7 +46,7 @@
 97C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\regions\HK.js133729707242297540 0
 88C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\wrap-ansi\package.json133729720684938801 0
 105C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\features\autofocus.js133729707223981453 0
-57C:\Users\torim\Projects GoIt\house_redrover_frontend\dist133732460966742460 1
+57C:\Users\torim\Projects GoIt\house_redrover_frontend\dist133732902703478703 1
 92C:\Users\torim\Projects GoIt\house_redrover_frontend\src\assets\image\promo_backgroundMd.png133731287540588862 0
 119C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\path-browserify\test\test-path-zero-length-strings.js133730494957738494 0
 97C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\regions\TM.js133729707257170165 0
@@ -55,7 +55,7 @@
 117C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@swc\helpers\cjs\_class_apply_descriptor_update.cjs133729707234316472 0
 110C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\utility-types\dist\aliases-and-guards.js.map133729707211867790 0
 75C:\Users\torim\Projects GoIt\house_redrover_frontend\src\styles\_promo.scss133732452031854101 0
-76C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.867122b9.css133732460336363763 0
+76C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.867122b9.css133732902703187183 0
 99C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\postcss\lib\terminal-highlight.js133729720688126735 0
 87C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\yargs\locales\en.json133729720688279812 0
 119C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\features\background-position-x-y.js133729707225395344 0
@@ -74,7 +74,7 @@
 75C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\path-case133729720687103441 1
 84C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\async\anySeries.js133732474018133181 0
 94C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\csso\lib\clean\WhiteSpace.js133729707224747799 0
-65C:\Users\torim\Projects GoIt\house_redrover_frontend\package.json133732487142248279 0
+65C:\Users\torim\Projects GoIt\house_redrover_frontend\package.json133732902689432606 0
 91C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\yargs\locales\pirate.json133729720688576842 0
 84C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\function-bind\test133729874351233678 1
 120C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@msgpackr-extract\msgpackr-extract-win32-x64\README.md133729707206380450 0
@@ -134,7 +134,7 @@
 71C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\yargs133729720688867873 1
 74C:\Users\torim\Projects GoIt\house_redrover_frontend\src\styles\_base.scss133732459516389800 0
 83C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\lmdb\src\misc.cpp133729707228413557 0
-76C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\team1.7ddd4345.png133732459672936459 0
+76C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\team1.7ddd4345.png133732902702818279 0
 91C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\utils\src\path.js133729707225551699 0
 95C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\fast-glob\out\utils\path.d.ts133732474019184151 0
 92C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\nth-check\lib\parse.js.map133729707217328224 0
@@ -502,7 +502,7 @@
 84C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\chrome-trace-event133729707210381952 1
 101C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\postcss-value-parser\lib\index.d.ts133729707212736664 0
 71C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\cliui133729720686824263 1
-76C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\team2.60c1cde7.png133732459673559377 0
+76C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\team2.60c1cde7.png133732902703013041 0
 90C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\yargs-parser\LICENSE.txt133729720687389432 0
 99C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\core\src\public\Target.js133729707233651451 0
 71C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\clone133729707210392158 1
@@ -924,7 +924,7 @@
 96C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\csso\lib\clean\TypeSelector.js133729707224054543 0
 89C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\core\src\public133729707233641443 1
 89C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\get-intrinsic\README.md133729874351385528 0
-68C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.html133732460966732482 0
+68C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.html133732902702975942 0
 100C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\features\heif.js133729707242103054 0
 95C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\ordered-binary\dist\index.cjs133729707205960863 0
 76C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\micromatch133729707207740681 1
@@ -2312,7 +2312,7 @@
 110C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\features\resizeobserver.js133729707251842572 0
 129C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\resolve\test\resolver\multirepo\packages\package-b\package.json133729874354715246 0
 89C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\change-case\dist.es2015133729720687459406 1
-77C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\heroLg.a00a45c7.png133732459673570645 0
+77C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\heroLg.a00a45c7.png133732902703129291 0
 115C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\features\css-scroll-behavior.js133729707236354752 0
 100C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\sentence-case\dist.es2015\index.js133729720684714566 0
 104C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\sentence-case\dist.es2015\index.js.map133729720686428887 0
@@ -3156,7 +3156,7 @@
 87C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\picomatch\lib\scan.js133729707210969851 0
 91C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\core\src\types.js133729707234470183 0
 84C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\picocolors\LICENSE133729707204807664 0
-89C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\promo_backgroundXl.b74c1b1b.png133732459673682044 0
+89C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\promo_backgroundXl.b74c1b1b.png133732902703468568 0
 89C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\picocolors\package.json133729707207642805 0
 92C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\picocolors\picocolors.d.ts133729707210288111 0
 103C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\features\ch-unit.js133729707228332535 0
@@ -3180,7 +3180,7 @@
 86C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\path-exists\index.js133732474016303040 0
 91C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\acorn\dist\acorn.mjs.d.ts133729874352747783 0
 96C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\domutils\lib\querying.d.ts.map133729707215726229 0
-75C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.0641b553.js133732459672936459 0
+75C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.0641b553.js133732902703048525 0
 85C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\make-dir\index.d.ts133732474016831019 0
 85C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\path-exists\license133732474016572311 0
 83C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\lmdb\package.json133729707232886929 0
@@ -3511,7 +3511,7 @@
 108C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\features\css-any-link.js133729707231643155 0
 91C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\loader-utils\package.json133729720687389432 0
 87C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\loader-utils\lib\hash133729720687194318 1
-89C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\promo_backgroundLg.6de73f7e.png133732459673036467 0
+89C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\promo_backgroundLg.6de73f7e.png133732902703287352 0
 99C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@babel\types\lib\utils\inherit.js133729874356048130 0
 91C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\loader-utils\lib\index.js133729720686090242 0
 101C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\loader-utils\lib\interpolateName.js133729720686365613 0
@@ -4698,7 +4698,7 @@
 86C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\csso\lib\compress.js133729707216838214 0
 104C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@swc\helpers\cjs\_class_call_check.cjs133729707234339237 0
 103C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\csso\lib\restructure\1-mergeAtrule.js133729707206218946 0
-89C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\promo_backgroundMd.b0200f9d.png133732459673641973 0
+89C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\promo_backgroundMd.b0200f9d.png133732902703367453 0
 111C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\csso\lib\restructure\2-initialMergeRuleset.js133729707207111745 0
 117C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\rust\parcel-node-bindings.darwin-arm64.node133729707235742448 0
 88C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\optimizer-svgo133729707207982579 1
@@ -5168,7 +5168,7 @@
 111C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\runtime-browser-hmr\lib\HMRRuntime.js133729707210425359 0
 97C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\regions\PF.js133729707250696673 0
 97C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\regions\PG.js133729707250721425 0
-75C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\logo.5627c880.svg133732459672882218 0
+75C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\logo.5627c880.svg133732902702768278 0
 97C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\regions\PK.js133729707250868004 0
 97C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\regions\PN.js133729707250988542 0
 97C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\caniuse-lite\data\regions\PR.js133729707251199851 0
@@ -6439,7 +6439,7 @@
 110C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\source-map\parcel_sourcemap_node\src133729707227792612 1
 140C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-arm64.node133729707221850617 0
 138C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-x64.node133729707223333892 0
-79C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.0641b553.js.map133732459673036467 0
+79C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.0641b553.js.map133732902703237256 0
 147C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-arm-gnueabihf.node133729707224343923 0
 142C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.linux-x64-musl.node133729707227142146 0
 142C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.win32-x64-msvc.node133729707227720226 0
@@ -6477,7 +6477,7 @@
 116C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\reporter-dev-server\src\templates\500.html133729707208384795 0
 104C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\runtime-js\lib\helpers\browser133729707222963280 1
 110C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\runtime-js\lib\helpers\bundle-url.js133729707210492280 0
-80C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.867122b9.css.map133732460336573832 0
+80C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.867122b9.css.map133732902703352618 0
 118C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\runtime-js\lib\helpers\worker\wasm-loader.js133729707223214307 0
 116C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\runtime-js\lib\helpers\node\html-loader.js133729707217479469 0
 118C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\runtime-js\lib\helpers\browser\css-loader.js133729707213257971 0
@@ -6561,7 +6561,7 @@
 91C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\markdown-ansi\src133729707206976952 1
 93C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\package-manager\lib133729707224861806 1
 121C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\package-manager\test\NodePackageManager.test.js133729707220153007 0
-72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\1.b0e094fc.jpg133732459672966593 0
+72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\1.b0e094fc.jpg133732902702989359 0
 127C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\package-manager\test\validateModuleSpecifiers.test.js133729707221941145 0
 111C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\package-manager\test\fixtures\has-foo133729707223311470 1
 112C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@parcel\package-manager\test\fixtures\packages133729707217142863 1
@@ -6916,7 +6916,7 @@
 120C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@babel\types\lib\modifications\removePropertiesDeep.js133729874355846729 0
 124C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@babel\types\lib\modifications\removePropertiesDeep.js.map133729874355866726 0
 102C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@babel\types\lib\definitions\core.js133729874354336890 0
-78C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\teamImg.7f2cb2f0.png133732459673559377 0
+78C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\teamImg.7f2cb2f0.png133732902703098512 0
 116C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@babel\types\lib\definitions\deprecated-aliases.js133729874354695247 0
 102C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@babel\types\lib\definitions\flow.js133729874354855077 0
 106C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\@babel\types\lib\definitions\flow.js.map133729874354885080 0
@@ -7038,19 +7038,19 @@
 89C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\.bin\typed-scss-modules133729720694857593 0
 93C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\.bin\typed-scss-modules.cmd133729720694857593 0
 93C:\Users\torim\Projects GoIt\house_redrover_frontend\node_modules\.bin\update-browserslist-db133729707262225704 0
-72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\2.65f8f28e.jpg133732459673570645 0
-72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\3.fcd1d939.jpg133732459672976467 0
-72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\4.439e363b.jpg133732459673570645 0
-72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\5.3e6cdba1.jpg133732459672966593 0
-72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\6.371e553f.jpg133732459673570645 0
 79C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\facebook.085d4b38.svg133730594060955402 0
-77C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\heroMd.509487cd.png133732459672936459 0
-77C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\heroXl.defdcb27.png133732459673036467 0
 93C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\house_redrover_frontend.9cb2a9a4.js133730465330436470 0
 97C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\house_redrover_frontend.9cb2a9a4.js.map133730465330490992 0
 76C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.4a508c1d.css133732445296578296 0
 80C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.8f15df43.css.map133729703514960823 0
 75C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\index.d191e4df.js133729703514980823 0
-81C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\promo_star.d2142ceb.png133732459672926451 0
-77C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\sprite.f36c8875.svg133732459673375369 0
-76C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\team3.2b66be93.png133732459672936459 0
+76C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\team3.2b66be93.png133732902702828289 0
+81C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\promo_star.d2142ceb.png133732902702828289 0
+77C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\heroMd.509487cd.png133732902702858281 0
+72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\5.3e6cdba1.jpg133732902702989359 0
+72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\3.fcd1d939.jpg133732902703024525 0
+72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\4.439e363b.jpg133732902703088622 0
+72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\6.371e553f.jpg133732902703118511 0
+72C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\2.65f8f28e.jpg133732902703108593 0
+77C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\heroXl.defdcb27.png133732902703237256 0
+77C:\Users\torim\Projects GoIt\house_redrover_frontend\dist\sprite.f36c8875.svg133732902703277361 0

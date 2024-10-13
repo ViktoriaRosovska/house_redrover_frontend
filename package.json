@@ -9,7 +9,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.pug -d root --public-url/house_redrover_frontend",
+    "build": "parcel build src/index.pug -d docs --public-url/house_redrover_frontend",
     "start": "parcel src/index.pug --open",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
