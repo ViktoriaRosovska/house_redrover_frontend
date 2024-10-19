@@ -53,19 +53,45 @@ html(lang="en")
                 div(class='card-list__menu')
                     h2(class='card-list__title') Репродукции
                     div(class='card-list__btn-wrapper')
-                        button(class='round-btn' class='active') Франция
-                        button(class='round-btn') Германия
-                        button(class='round-btn') Англия
+                        button(class='round-btn' class='active' class='france') Франция
+                        button(class='round-btn' class='germany') Германия
+                        button(class='round-btn' class='england') Англия
+                
                 ul(class='card-list')
-                   each val in dataVariable.france
-                    li(class='card')
-                        div(class='card__img-wrapper')
-                            img(src=`${val.img}` alt='card')
-                        p(class='card__author') #{val.cardAuthor}
-                        h3(class='card__picture-name') #{val.cardPictureName}
-                        p(class='card__description') Холст, масло (50х80)
-                        p(class='card__price') #{val.price}
-                        button(class='btn' class='btn-green') В корзину
+                    
+                    -var select = 1
+                        
+                    case select
+                        when 1 
+                            each val in dataVariable.france
+                                li(class='card')
+                                    div(class='card__img-wrapper')
+                                        img(src=`${val.img}` alt='card')
+                                    p(class='card__author') #{val.cardAuthor}
+                                    h3(class='card__picture-name') #{val.cardPictureName}
+                                    p(class='card__description') Холст, масло (50х80)
+                                    p(class='card__price') #{val.price}
+                                    button(class='btn' class='btn-green') В корзину
+                        when 2
+                            each val in dataVariable.germany
+                                li(class='card')
+                                    div(class='card__img-wrapper')
+                                        img(src=`${val.img}` alt='card')
+                                    p(class='card__author') #{val.cardAuthor}
+                                    h3(class='card__picture-name') #{val.cardPictureName}
+                                    p(class='card__description') Холст, масло (50х80)
+                                    p(class='card__price') #{val.price}
+                                    button(class='btn' class='btn-green') В корзину
+                        default
+                            each val in dataVariable.france
+                                li(class='card')
+                                    div(class='card__img-wrapper')
+                                        img(src=`${val.img}` alt='card')
+                                    p(class='card__author') #{val.cardAuthor}
+                                    h3(class='card__picture-name') #{val.cardPictureName}
+                                    p(class='card__description') Холст, масло (50х80)
+                                    p(class='card__price') #{val.price}
+                                    button(class='btn' class='btn-green') В корзину
         section(class='section' class='promo-section'  id='news')
             div(class='container')
                 div(class='promo__wrapper')
