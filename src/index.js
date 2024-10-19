@@ -22,7 +22,7 @@ function addActiveAndLoadJson(country) {
   const allBtns = document.querySelectorAll(".round-btn");
   console.log(countryName);
   console.log(allBtns);
-  for (el of allBtns) {
+  for (let el of allBtns) {
     console.log(el);
     el.classList.remove("active");
   }
