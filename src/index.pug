@@ -59,7 +59,7 @@ html(lang="en")
                 
                 ul(class='card-list')
                     
-                    -var select = 1
+                    -var select = 2
                         
                     case select
                         when 1 
@@ -69,7 +69,7 @@ html(lang="en")
                                         img(src=`${val.img}` alt='card')
                                     p(class='card__author') #{val.cardAuthor}
                                     h3(class='card__picture-name') #{val.cardPictureName}
-                                    p(class='card__description') Холст, масло (50х80)
+                                    p(class='card__description') #{val.cardDescription}
                                     p(class='card__price') #{val.price}
                                     button(class='btn' class='btn-green') В корзину
                         when 2
@@ -79,7 +79,7 @@ html(lang="en")
                                         img(src=`${val.img}` alt='card')
                                     p(class='card__author') #{val.cardAuthor}
                                     h3(class='card__picture-name') #{val.cardPictureName}
-                                    p(class='card__description') Холст, масло (50х80)
+                                    p(class='card__description') #{val.cardDescription}
                                     p(class='card__price') #{val.price}
                                     button(class='btn' class='btn-green') В корзину
                         default
@@ -89,7 +89,7 @@ html(lang="en")
                                         img(src=`${val.img}` alt='card')
                                     p(class='card__author') #{val.cardAuthor}
                                     h3(class='card__picture-name') #{val.cardPictureName}
-                                    p(class='card__description') Холст, масло (50х80)
+                                    p(class='card__description') #{val.cardDescription}
                                     p(class='card__price') #{val.price}
                                     button(class='btn' class='btn-green') В корзину
         section(class='section' class='promo-section'  id='news')
