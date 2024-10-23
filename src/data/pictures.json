@@ -86,5 +86,49 @@
       "cardDescription": "Бумага, акрил (50х80)",
       "price": "23 000 руб"
     }
+  ],
+  "england": [
+    {
+      "cardAuthor": "Курт Вернер",
+      "img": "./assets/image/germany/1.jpg",
+      "cardPictureName": "Над городом",
+      "cardDescription": "Цветная литография (40х60)",
+      "price": "16 000 руб"
+    },
+    {
+      "cardAuthor": "Макс Рихтер",
+      "img": "./assets/image/germany/2.jpg",
+      "cardPictureName": "Птенцы",
+      "cardDescription": "Холст, масло (50х80)",
+      "price": "14 500 руб"
+    },
+    {
+      "cardAuthor": "Мартин Майер",
+      "img": "./assets/image/germany/3.jpg",
+      "cardPictureName": "Среди листьев",
+      "cardDescription": "Цветная литография (40х60)",
+      "price": "20 000 руб"
+    },
+    {
+      "cardAuthor": "Герман Беккер",
+      "img": "./assets/image/germany/4.jpg",
+      "cardPictureName": "Яркая птица",
+      "cardDescription": "Цветная литография (40х60)",
+      "price": "13 000 руб"
+    },
+    {
+      "cardAuthor": "Вульф Бауэр",
+      "img": "./assets/image/germany/5.jpg",
+      "cardPictureName": "Дятлы",
+      "cardDescription": "Бумага, акрил (50х80)",
+      "price": "20 000 руб"
+    },
+    {
+      "cardAuthor": "Вальтер Хартманн",
+      "img": "./assets/image/germany/6.jpg",
+      "cardPictureName": "Большие воды",
+      "cardDescription": "Бумага, акрил (50х80)",
+      "price": "23 000 руб"
+    }
   ]
 }

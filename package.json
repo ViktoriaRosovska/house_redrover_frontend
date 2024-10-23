@@ -9,13 +9,16 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build src/index.pug --public-url ./",
-    "start": "parcel src/index.pug --open",
+    "build": "parcel build src/*.pug --public-url ./",
+    "start": "parcel src/*.pug --open",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0",
+    "assert": "^2.1.0",
+    "buffer": "^6.0.3",
+    "os-browserify": "^0.3.0",
     "parcel": "latest",
     "path-browserify": "^1.0.1",
     "process": "^0.11.10",
